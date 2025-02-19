@@ -38,10 +38,8 @@ nav ul li a {
 main {
     max-width: 800px;
     margin: 20px auto;
-    background: white;
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 
@@ -53,4 +51,11 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+}
+
+main img {
+    display: block;  /* Hace que la imagen no tenga espacio extra alrededor */
+    margin: -20px auto 20px auto; /* Sube la imagen para que parezca fuera del fondo */
+    max-width: 100%;  /* Evita que la imagen se haga más grande que su contenedor */
+    border-radius: 10px;  /* Opcional: Suaviza las esquinas de la imagen */
 }
