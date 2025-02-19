@@ -59,3 +59,10 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+main img {
+    display: block;  /* Hace que la imagen no tenga espacio extra alrededor */
+    margin: -20px auto 20px auto; /* Sube la imagen para que parezca fuera del fondo */
+    max-width: 100%;  /* Evita que la imagen se haga más grande que su contenedor */
+    border-radius: 10px;  /* Opcional: Suaviza las esquinas de la imagen */
+}
