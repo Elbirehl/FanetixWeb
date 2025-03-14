@@ -32,18 +32,19 @@ main {
 }
 
 .contact-info {
-    
     padding: 40px; /* Espacio interno para separar el texto de los bordes. */
     text-align: center; /* Centra el texto horizontalmente. */
 }
 
 .contact-info h3 {
+    font-family: 'YoungSerifRegular';
     font-size: 24px; /* Tamaño del texto del título. */
     margin-top: 0px; /* Espacio arriba del título para separarlo del contenido anterior. */
     margin-bottom: 20px; /* Espacio debajo del título para separarlo del contenido siguiente. */
 }
 
 .contact-info a {
+    font-family: 'NowRegular';
     color: black; /* Establece el color del texto como negro */
     text-decoration: none; /* Elimina la línea debajo del enlace */
 }

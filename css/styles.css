@@ -37,9 +37,17 @@ nav {
     padding: 2px 0; /* Espaciado interno de 20px arriba y abajo */
     border-radius: 10px; /* Bordes redondeados */
 }
+p {
+    font-family: 'NowRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 19px;
+ }
 
 /*ELEMENTOS DE LA LISTA*/
 nav ul li {
+    font-family: 'YoungSerifRegular';
+    font-size: 14.34px;
     display: inline; /* Hace que los elementos de la lista estén en línea (uno al lado del otro) */
     margin: 0 15px; /* Espaciado horizontal de 15px entre elementos */
 }
@@ -72,10 +80,15 @@ main {
 
 /* TÍTULO H2 */
 main h2 {
+    font-family: 'YoungSerifRegular';
     font-size: 2em; /* Tamaño de fuente */
     margin-bottom: 20px; /* Margen inferior */
     display: inline-block; /* Asegura que el h2 no ocupe todo el ancho, pero se centre */
     text-align: center; /* Solo centra el texto dentro de h2 */
+}
+main h3{
+    font-family: 'YoungSerifRegular';
+    font-size: 22px;
 }
 
 /* PIÉ DE PÁGINA */
@@ -105,6 +118,7 @@ footer {
 }
 
 .footer-contact a {
+    font-family: 'NowRegular';
     color: white; /* Establece el color de los enlaces en blanco */
     text-decoration: none; /* Elimina el subrayado por defecto de los enlaces */
 }
@@ -120,6 +134,7 @@ footer {
 }
 
 .footer-rights p {
+    font-family: 'NowRegular';
     margin: 5px 0; /* Añade un margen de 5px arriba y abajo de cada párrafo, pero no a los lados */
 }
 
