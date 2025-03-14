@@ -1,0 +1,38 @@
+table-tareas{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background: #f8c8dc;
+    color: black;
+}
+.fase {
+    background: #e0e0e0;
+    font-weight: bold;
+    text-align: left;
+}
+.fase-1 { background: #cacef3; }
+.fase-2 { background: #fff2cc; }
+.fase-3 { background: #d2f7f9; }
+.fase-4 { background: #cacef3; }
+.fase-5 { background: #fff2cc; }
+.fase-6 { background: #d2f7f9; }
+
+.imagen-cronograma {
+    display: block;
+    width: auto; /* Ocupará todo el ancho disponible */
+    max-width: none; /* Sin restricción de tamaño máximo */
+    height:500px;
+    align-items: left;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
