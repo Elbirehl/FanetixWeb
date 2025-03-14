@@ -58,14 +58,24 @@ nav ul li a {
     padding: 30px 3.312px; /* Añade relleno alrededor del texto */
 }
 
-/*SECCIÓN PRINCIPAL*/
+/* SECCIÓN PRINCIPAL */
 main {
     max-width: 800px; /* Limita el ancho a 800px */
-    margin: 175px auto 20px auto; /* Centra la sección y deja espacio superior e inferior */
+    margin: 300px auto 20px auto; /* Centra la sección y deja espacio superior e inferior */
     padding: 20px; /* Espaciado interno */
     border-radius: 10px; /* Bordes redondeados */
-    margin-top: 215px;
-    margin-bottom: 150px; /* Margen inferior para evitar que el footer lo tape */
+    display: flex; /* Usa Flexbox */
+    flex-direction: column; /* Organiza los elementos en columna */
+    align-items: center; /* Centra los elementos horizontalmente */
+    justify-content: center; /* Centra los elementos verticalmente */
+}
+
+/* TÍTULO H2 */
+main h2 {
+    font-size: 2em; /* Tamaño de fuente */
+    margin-bottom: 20px; /* Margen inferior */
+    display: inline-block; /* Asegura que el h2 no ocupe todo el ancho, pero se centre */
+    text-align: center; /* Solo centra el texto dentro de h2 */
 }
 
 /* PIÉ DE PÁGINA */
@@ -92,20 +102,6 @@ footer {
 .footer-logo img {
     max-width: 150px; /* Limita el tamaño máximo del logo a 150px de ancho */
     height: auto; /* Mantiene la proporción original de la imagen (es decir, ajusta la altura automáticamente según el ancho) */
-}
-
-.footer-contact {
-    margin-top: 10px; /* Añade un margen superior de 15px para separar la sección de contacto del resto del contenido */
-}
-
-.footer-contact h3 {
-    font-size: 1.2em; /* Establece el tamaño de fuente del título en 1.2 veces el tamaño normal */
-    margin-bottom: 10px; /* Añade un margen inferior de 10px debajo del título */
-}
-
-.footer-contact p {
-    margin: 5px 0; /* Añade un margen de 5px arriba y abajo de cada párrafo, pero no a los lados */
-    font-size: 1em; /* Establece el tamaño de la fuente en el tamaño normal (1em) */
 }
 
 .footer-contact a {
