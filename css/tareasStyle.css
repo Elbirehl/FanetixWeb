@@ -1,3 +1,6 @@
+
+
+
 table-tareas{
     width: 100%;
     border-collapse: collapse;
@@ -32,8 +35,17 @@ tr:not(.fase) {
 
 .cronograma {
     width: 100%;
-    margin: 5px auto;
+    margin: auto;
+    margin-left: -33%;
     border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.cronograma_Center {
+    width: 100%;
+    margin: auto;
+    border-collapse: collapse;
+    table-layout: fixed;
 }
 
 .cronograma th, .cronograma td {
@@ -42,27 +54,39 @@ tr:not(.fase) {
     text-align: center;
 }
 
-.header {
+.header_dia {
     background-color: #f8c8dc;
+    width: 50px; 
+
+   
+}
+.header_tarea{
+    background-color: #f8c8dc;
+    width: 293px; 
 }
 
 .dia-blanco{
     background-color: #ffffff;
+    width: 5px; 
 }
 
 /*MORADO*/
 .mes-header-morado{
     background-color: #cacef3;
+    
 }
 
 .dia-header-morado {
     background-color: #cacef3;
     font-weight: bold;
     text-align: center;
+    width: 10px; 
+    
 }
 
 .dia-morado{
     background-color: #cacef3;
+    width: 10px; 
 }
 
 /*AMARILLO*/
@@ -74,6 +98,7 @@ tr:not(.fase) {
     background-color: #fff2cc;
     font-weight: bold;
     text-align: center;
+    width: 10px; 
 }
 
 .dia-amarillo{
@@ -89,8 +114,10 @@ tr:not(.fase) {
     background-color: #d2f7f9;
     font-weight: bold;
     text-align: center;
+    width: 50px; 
 }
 
 .dia-azul{
     background-color: #d2f7f9;
+    width: 50px; 
 }
