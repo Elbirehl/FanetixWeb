@@ -2,20 +2,22 @@ table-tareas{
     width: 100%;
     border-collapse: collapse;
     margin: 20px 0;
-    background: white;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    
 }
 th, td {
-    border: 1px solid #ddd;
+    border: 1px solid black;
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 th {
     background: #f8c8dc;
     color: black;
+    text-align: center;
+}
+tr:not(.fase) {
+    background: white; /* Fondo blanco para las filas normales */
 }
 .fase {
-    background: #e0e0e0;
     font-weight: bold;
     text-align: left;
 }
@@ -26,13 +28,69 @@ th {
 .fase-5 { background: #fff2cc; }
 .fase-6 { background: #d2f7f9; }
 
-.imagen-cronograma {
-    display: block;
-    width: auto; /* Ocupará todo el ancho disponible */
-    max-width: none; /* Sin restricción de tamaño máximo */
-    height:500px;
-    align-items: left;
-    margin: 30px auto;
-    border: 1px solid #ddd;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+/*Tablas con el cronograma de los 4 meses*/
+
+.cronograma {
+    width: 100%;
+    margin: 5px auto;
+    border-collapse: collapse;
+}
+
+.cronograma th, .cronograma td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.header {
+    background-color: #f8c8dc;
+}
+
+.dia-blanco{
+    background-color: #ffffff;
+}
+
+/*MORADO*/
+.mes-header-morado{
+    background-color: #cacef3;
+}
+
+.dia-header-morado {
+    background-color: #cacef3;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dia-morado{
+    background-color: #cacef3;
+}
+
+/*AMARILLO*/
+.mes-header-amarillo{
+    background-color: #fff2cc;
+}
+
+.dia-header-amarillo {
+    background-color: #fff2cc;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dia-amarillo{
+    background-color: #fff2cc;
+}
+
+/*AZUL*/
+.mes-header-azul{
+    background-color: #d2f7f9;
+}
+
+.dia-header-azul {
+    background-color: #d2f7f9;
+    font-weight: bold;
+    text-align: center;
+}
+
+.dia-azul{
+    background-color: #d2f7f9;
 }
