@@ -163,3 +163,9 @@ main img {
     max-width: 100%; /* Evita que la imagen sobrepase el tamaño de su contenedor */
     border-radius: 10px; /* Suaviza los bordes de la imagen */
 }
+
+.arqui-img {
+    width: 1500px; /* o 80% si quieres relativo al ancho de la pantalla */
+    height: auto; /* para que no se deforme */
+    margin-bottom: 20px; /* espacio entre imágenes */
+}
