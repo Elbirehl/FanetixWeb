@@ -1,0 +1,69 @@
+
+/*SECCIÓN PRINCIPAL*/
+main {
+    max-width: 800px; /* Limita el ancho a 800px */
+    margin: 250px auto 20px auto; /* Centra la sección y deja espacio superior e inferior */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 10px; /* Bordes redondeados */
+
+}
+
+/*Estilo seccion contacto pagina de inicio*/
+
+.contact-section {
+    background-color:  #fdd3e19d; /* Fondo transparente. */
+    padding: 0; /* No añade espacio interno. */
+    border-radius: 10px; /* Bordes redondeados de 10 píxeles. */
+    margin: 5px auto; /* Margen de 5 píxeles arriba*/
+    max-width: 800px; /* El ancho máximo de la sección es de 800 píxeles. */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Sombra suave alrededor de la sección. */
+    overflow: hidden; /* Para que los bordes redondeados afecten también al contenido, como imágenes. */
+}
+
+.contact-container {
+    display: flex; /* Utiliza el modelo de diseño flexbox. */
+    flex-direction: row; /* Coloca los elementos en fila (uno al lado del otro). */
+    align-items: stretch; /* Ambos elementos (texto e imagen) se estiran para tener la misma altura. */
+
+}
+
+.contact-info, .contact-image {
+    flex: 1; /* Ambos elementos ocupan el mismo espacio, dividiendo el ancho por igual. */
+}
+
+.contact-info {
+    padding: 40px; /* Espacio interno para separar el texto de los bordes. */
+    text-align: center; /* Centra el texto horizontalmente. */
+}
+
+.contact-info h3 {
+    font-family: 'YoungSerifRegular';
+    font-size: 24px; /* Tamaño del texto del título. */
+    margin-top: 0px; /* Espacio arriba del título para separarlo del contenido anterior. */
+    margin-bottom: 20px; /* Espacio debajo del título para separarlo del contenido siguiente. */
+}
+
+.contact-info a {
+    font-family: 'NowRegular';
+    color: black; /* Establece el color del texto como negro */
+    text-decoration: none; /* Elimina la línea debajo del enlace */
+}
+
+.contact-info a:hover {
+    color: #a2a2db; /* Cambia el color del texto cuando se pasa el mouse (puedes elegir otro color) */
+    text-decoration: underline; /* Añade una línea debajo del enlace */
+}
+.contact-info p {
+    margin: 10px 0; /* Margen superior e inferior para separar los párrafos. */
+    font-size: 16px; /* Tamaño de la fuente para los textos de contacto. */
+}
+.contact-image {
+    height: 100%; /* Ocupa toda la altura disponible. */
+}
+
+.contact-image img {
+    display: block; /* Elimina el espacio extra por ser un elemento en línea. */
+    width: 100%; /* La imagen ocupará el 100% del ancho del contenedor. */
+    height: 100%; /* La imagen ocupará el 100% del alto del contenedor. */
+    object-fit: cover; /* La imagen se recorta para llenar el contenedor sin distorsionarse. */
+}

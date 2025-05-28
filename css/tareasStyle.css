@@ -1,0 +1,123 @@
+
+table-tareas{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    background: #f8c8dc;
+    color: black;
+    text-align: center;
+}
+tr:not(.fase) {
+    background: white; /* Fondo blanco para las filas normales */
+}
+.fase {
+    font-weight: bold;
+    text-align: left;
+}
+.fase-1 { background: #cacef3; }
+.fase-2 { background: #fff2cc; }
+.fase-3 { background: #d2f7f9; }
+.fase-4 { background: #cacef3; }
+.fase-5 { background: #fff2cc; }
+.fase-6 { background: #d2f7f9; }
+
+/*Tablas con el cronograma de los 4 meses*/
+
+h3{
+    font-family: 'YoungSerifRegular';
+    font-size: 22px;
+    text-align: center;
+}
+
+.cronograma {
+    width: 97%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin-bottom: 20px;
+
+}
+
+.cronograma th, .cronograma td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+.header_dia {
+    background-color: #f8c8dc;
+    width: 50px; 
+    height: 50px;
+
+   
+}
+.header_tarea{
+    background-color: #f8c8dc;
+    width: 293px; 
+}
+
+.dia-blanco{
+    background-color: #ffffff;
+    width: 5px; 
+}
+
+/*MORADO*/
+.mes-header-morado{
+    background-color: #cacef3;
+   
+    
+}
+
+.dia-header-morado {
+    background-color: #e2e4f4;
+    font-weight: bold;
+    text-align: center;
+    width: 70px; 
+    
+}
+
+.dia-morado{
+    background-color: #cacef3;
+    width: 70px; 
+}
+
+/*AMARILLO*/
+.mes-header-amarillo{
+    background-color: #fff2cc;
+}
+
+.dia-header-amarillo {
+    background-color: #f4eddb;
+    font-weight: bold;
+    text-align: center;
+    width: 10px; 
+}
+
+.dia-amarillo{
+    background-color: #fff2cc;
+}
+
+/*AZUL*/
+.mes-header-azul{
+    background-color: #d2f7f9;
+}
+
+.dia-header-azul {
+    background-color: #ebf5f5;
+    font-weight: bold;
+    text-align: center;
+    width: 50px; 
+}
+
+.dia-azul{
+    background-color: #d2f7f9;
+    width: 50px; 
+}
